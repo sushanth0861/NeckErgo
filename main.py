@@ -8,20 +8,6 @@ def get_info(frame):
     width = img.shape[1]
     return  height, width
 
-# def put_text(a,x,y):
-#     # https://stackoverflow.com/questions/16615662/how-to-write-text-on-a-image-in-windows-using-python-opencv2
-#     font = cv2.FONT_HERSHEY_SIMPLEX
-#     bottomLeftCornerOfText = (x,y)
-#     fontScale = 1
-#     fontColor = (255, 255, 255)
-#     lineType = 2
-#     cv2.putText(frame,a,
-#                 bottomLeftCornerOfText,
-#                 font,
-#                 fontScale,
-#                 fontColor,
-#                 lineType)
-
 def i_timer():
     for i in range(30):
         print(i)
